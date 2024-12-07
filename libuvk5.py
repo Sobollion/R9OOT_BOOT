@@ -1,3 +1,5 @@
+#credits - https://github.com/amnemonic/Quansheng_UV-K5_Firmware/tree/main
+
 import serial
 import struct
 import os
