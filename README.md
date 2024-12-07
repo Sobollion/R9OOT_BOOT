@@ -47,7 +47,7 @@ At the very bottom there is a block of firmware for the main bootloader, there a
 Initial installation:
 
 * Make a hardware modification - replace the EEPROM memory with 256 or 512 KiB.
-* Using any usual method, flash special firmware from LoseHu to configure EEPROM of all sizes. You can find it in release archive, LoseHu firmware for first EEPROM load.bin (its special difference is black rectangles instead of numbers, due to the lack of fonts).
+* Using any usual method, flash special firmware from LoseHu to configure EEPROM of all sizes. You can find it in release archive, `LoseHu firmware for first EEPROM load.bin` (its special difference is black rectangles instead of numbers, due to the lack of fonts).
 * Configure the auxiliary bootloader and write the selected option with the necessary firmware and settings to EEPROM. Press the red button to write to EEPROM.
 * Disassemble the station, connect ST LINK to the SWD interface and flash the main bootloader from the same program tab where you configured the auxiliary one.
 
